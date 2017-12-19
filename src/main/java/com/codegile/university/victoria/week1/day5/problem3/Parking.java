@@ -1,21 +1,10 @@
 package com.codegile.university.victoria.week1.day5.problem3;
 
-import java.awt.event.KeyEvent;
-import java.awt.event.KeyListener;
 import java.util.Random;
-import java.util.Scanner;
 
 public class Parking implements Runnable {
-    //private static Parking instance = null;
 
-    protected Parking(){}
-
-//    public Parking getInstance(){
-//        if(instance == null){
-//            instance = new Parking();
-//        }
-//        return instance;
-//    }
+    public Parking(){}
 
     @Override
     public void run() {
